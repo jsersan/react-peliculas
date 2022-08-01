@@ -1,0 +1,22 @@
+.peliculaCard {
+    list-style: none; 
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+.peliculaCard:hover{
+    opacity: 0.8;
+}
+
+.peliculaImage {
+    border-radius: 10px;
+    background-color: azure;
+}
+
+@media (max-width: 560px){
+    .peliculaImage {
+        width: 90%;
+        height: auto;
+    }
+}
+
